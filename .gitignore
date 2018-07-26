@@ -1,0 +1,10 @@
+*.log
+*.log*
+.idea/**
+test.html
+*.png
+*.jpeg
+test.php
+test.phtml
+*.jpg
+*.png~
