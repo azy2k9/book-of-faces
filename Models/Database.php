@@ -20,11 +20,15 @@ class Database {
 //       $password = 'guest123';
 //       $host = 'danbrohub.tech';
 //       $dbName = 'book_of_faces';
-       $username ='stc422';
-       $password = 'Azy2k9azy2k91.';
-       $host = 'helios.csesalford.com';
-       $dbName = 'stc422_book_of_faces';
-       
+//       $username ='stc422';
+//       $password = 'Azy2k9azy2k91.';
+//       $host = 'helios.csesalford.com';
+//       $dbName = 'stc422_book_of_faces';
+        $username ='b26aa661c5c341';
+        $password = 'e309797c';
+        $host = 'eu-cdbr-west-02.cleardb.net';
+        $dbName = 'heroku_119f61f6076feb8';
+
        if(self::$_dbInstance === null) { //checks if the PDO exists
             // creates new instance if not, sending in connection info
             self::$_dbInstance = new self($username, $password, $host, $dbName);
