@@ -91,6 +91,4 @@ class Mail
         mail($this->to, $this->subject, $this->message, implode("\r\n", $this->headers));
     }
 
-
-
 }
